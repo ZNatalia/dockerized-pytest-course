@@ -11,5 +11,5 @@ def csv_reader(file_location):
                 row['Altitude'] = float(row['Altitude'])
             except Exception as exp:
                 raise ValueError(str(exp))
-
         return data
+
